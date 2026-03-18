@@ -1,6 +1,6 @@
 
 
-export default function Op() {
+export default function Member() {
     return (
         
         <section className="w-full bg-red-600 rounded-2xl p-6 flex items-center justify-between overflow-hidden relative">
@@ -42,7 +42,7 @@ export default function Op() {
             </div>
 
             {/* Right: Phone mockup area with badges */}
-            <div className="relative z-10 flex items-center justify-end flex-1">
+           <div className="relative z-10 flex items-center justify-end flex-1">
                 <div className="relative w-32 h-56 bg-gray-900 rounded-3xl border-4 border-gray-700 shadow-2xl overflow-hidden flex items-center justify-center">
                     <span className="text-white text-xs text-center px-2">Sobat Bintang App</span>
                 </div>
