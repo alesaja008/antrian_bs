@@ -1,13 +1,13 @@
 "use client"
 
-import Member from "./onlineprint"
+import Member from "./membership"
 
 
 // import Video from "@/../public/video/BS MEMBER CARD.mp4"
 
 export default function IklanMember() {
     return (
-      <section className="bg-background relative size-full items-center justify-center overflow-hidden px-10 rounded-4xl mb-5">
+      <section className="bg-background relative size-full items-center justify-center overflow-hidden px-8 rounded-4xl mb-5">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
            <div className="relative w-full aspect-video">
               <iframe

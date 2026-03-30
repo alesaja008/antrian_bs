@@ -16,11 +16,11 @@ export default function Menu() {
   const [selectedService, setSelectedService] = useState<string>("");
   const router = useRouter();
 
-  const handleSubmit = () => {
-    if (selectedService) {
-      router.push(`/antrian/konfirmasi?service=${selectedService}`);
-    }
-  };
+  // const handleSubmit = () => {
+  //   if (selectedService) {
+  //     router.push(`/antrian/konfirmasi?service=${selectedService}`);
+  //   }
+  // };
 
   const services = [
     {
@@ -66,10 +66,10 @@ export default function Menu() {
           "[mask-image:linear-gradient(to_bottom,white,transparent)]"
         )}
       />
-     <div className=" bg-gray-50 px-8 py-5 rounded-4xl border-5">
+     <div className=" bg-gray-100 px-8 py-5 rounded-4xl border-5">
 
       {/* <h2 className="text-3xl font-bold text-gray-800 mb-2">Hallo, Sobat Bintang </h2> */}
-      <p className="text-gray-500 mb-8 text-center">
+      <p className="text-gray-500 mb-8 text-center text-">
         Silakan sentuh layar, lalu pilih layanan sesuai kebutuhan kamu.
       </p>
 
@@ -133,7 +133,7 @@ export default function Menu() {
      
         <div className="mt-5 flex justify-center ">
           <button 
-            onClick={handleSubmit}
+            // onClick={handleSubmit}
             className="bg-red-600 hover:bg-red-700 text-white font-semibold px-5 py-2 rounded-full text-sm transition-colors"
           >
            Selanjutnya
