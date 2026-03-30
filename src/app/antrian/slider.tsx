@@ -24,7 +24,7 @@ export default function Slider () {
                         Hallo, Sobat Bintang
                     </h2>
                     <p className="text-white mb-8 max-w-[70%]">
-                        Silakan pilih layanan yang Anda butuhkan untuk mengambil nomor antrian.
+                        Ini adalah layanan yang kami sediakan untuk memudahkan Anda dalam mengambil nomor antrian dengan cepat dan efisien.
                     </p>
 
                     <Image

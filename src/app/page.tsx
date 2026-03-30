@@ -2,8 +2,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Menu from "./antrian/menu";
 import Slider from "./antrian/slider";
-import IklanBawah from "./antrian/iklanBawah";
-import Op from "./antrian/onlineprint";
+import IklanBawah from "./antrian/IklanMember";
+import DesignerPlayground from "./antrian/designerPlayground";
+import OnlinePrint from "./antrian/onlineprint";
 
 export default function Home() {
   return (
@@ -11,20 +12,18 @@ export default function Home() {
       <Header />
       
       {/* <main className="pb-32 container mx-auto max-w-7xl"> */}
-      <main className="pb-32 mx-auto ">
+      <main className="pb-5 mx-auto ">
         <Slider/>
         <Menu/>
         <IklanBawah/>
+         <div className="grid grid-cols-1 md:grid-cols-1 gap-3 px-8">
+         <OnlinePrint/> 
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-3 px-8 mb-5">
+         <DesignerPlayground />
+        </div>
        
-        <section className="px-10">
-          <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white rounded-3xl p-8 mb-6 shadow-lg px-15">
-            <p className="text-sm leading-relaxed">
-              Bintang Sempurna adalah perusahaan percetakan dan typesetting terkemuka. 
-              Kami telah melayani industri percetakan sejak tahun 1500-an dengan standar kualitas terbaik. 
-              Percayakan kebutuhan cetak Anda kepada kami untuk hasil yang sempurna.
-            </p>
-          </div>
-        </section>
+        
       </main>
 
       <Footer />
