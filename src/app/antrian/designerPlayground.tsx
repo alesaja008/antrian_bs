@@ -6,10 +6,10 @@ export default function DesignerPlayground () {
     return (
        <section>
         <div className="flex gap-3 relative">
-          <div className="bg-gradient-to-r from-teal-500 to-teal-600 text-white rounded-3xl p-8  shadow-lg px-6">
+          <div className="bg-gradient-to-r from-teal-500 to-teal-600 text-white rounded-3xl p-6  shadow-lg px-6">
             <div className="grid grid-cols-1 md:grid-cols-[4fr_1fr] gap-3">
                 <div className="flex flex-col gap-3 z-10 max-w-sm">
-                    <Image src={DPlayground} width={200} height={200} alt="Designer Playtground z-5" className="mb-1"  />
+                    <Image src={DPlayground} width={180} height={180} alt="Designer Playtground z-5" className="mb-1"  />
                     <h2 className="text-white text-2xl font-bold leading-tight ">Kenalan Yuk! dengan Galeri “Designer Playground”</h2>
                     <p className="text-xs leading-tight ">
                     Designer Playground adalah ruang terbuka untuk berkarya, berbagi ide, dan mengeksplorasi kreativitas tanpa batas.
