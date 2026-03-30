@@ -6,10 +6,10 @@ export default function OnlinePrint() {
     return (
         <section>
         <div className="flex gap-3 relative">
-          <div className="bg-gradient-to-r from-indigo-950 to-indigo-800 text-white rounded-3xl p-8 mb-6 shadow-lg px-6">
+          <div className="bg-gradient-to-r from-indigo-950 to-indigo-800 text-white rounded-3xl p-6 mb-6 shadow-lg px-6">
             <div className="grid grid-cols-1 md:grid-cols-[4fr_1fr] gap-3">
                 <div className="flex flex-col gap-3 z-10 max-w-sm">
-                    <Image src={DPlayground} width={90} height={90} alt="Designer Playtground z-5" className="mb-1"  />
+                    <Image src={DPlayground} width={70} height={70} alt="Designer Playtground z-5" className="mb-1"  />
                     <h2 className="text-white text-2xl font-bold leading-tight -mb-3">onlineprint.co.id </h2>
                     <h2 className="text-white text-2xl font-bold leading-tight ">Print mudah dari rumah</h2>
                     <p className="text-xs leading-tight">
