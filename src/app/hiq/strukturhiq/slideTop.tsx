@@ -7,7 +7,7 @@ import Line from "@/../public/asset/img/line.png"
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
-export default function Slider () {
+export default function SlideTop () {
     return (
         <section className="bg-background relative  size-full items-center justify-center overflow-hidden px-8">
              <GridPattern
@@ -19,12 +19,13 @@ export default function Slider () {
                       "[mask-image:linear-gradient(to_bottom_center,white,transparent,transparent)]"
                     )}
                   />
-                <div className="relative rounded-4xl min-h-[140px] w-full bg-gradient-to-r from-red-600 via-red-500 to-red-800 mb-5 p-5 z-50 overflow-hidden">
-                    <h2 className="text-2xl font-bold text-white ">
-                        Hallo, <span className="inline-block animate-wave">👋🏻</span> Sobat Bintang  
+                <div className="relative rounded-4xl min-h-[140px] w-full bg-gradient-to-r from-orange-400 via-orange-500 to-blue-400 mb-5 p-5 z-50 overflow-hidden">
+                    <h2 className="text-2xl font-bold text-white">
+                    Hai, <span className="inline-block animate-wave">👋🏻</span>
                     </h2>
-                    <p className="text-white mb-8 max-w-[70%]">
-                        Ini adalah layanan yang kami sediakan untuk memudahkan Anda dalam mengambil nomor antrian dengan cepat dan efisien.
+                   
+                    <p className="text-white mb-8 max-w-[70%] text-lg">
+                       Silakan pilih layanan yang Anda butuhkan untuk mengambil nomor antrian.
                     </p>
 
                     <Image

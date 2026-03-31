@@ -2,20 +2,19 @@
 
 import { cn } from "@/lib/utils"
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 import Image from "next/image";
-import Antrian from "@/../public/asset/img/antrian2.jpg";
-import Konsultasi from "@/../public/asset/img/konsultasi2.jpg";
-import Pickup from "@/../public/asset/img/pickup2.jpg";
-import Setting from "@/../public/asset/img/setting2.jpg"
+import Antrian from "@/../public/asset/img/antrianhiq.jpg";
+import Konsultasi from "@/../public/asset/img/konsultasihiq.jpg";
+import Pickup from "@/../public/asset/img/pickuphiq.jpg";
+import Setting from "@/../public/asset/img/settinghiq.jpg"
 import { GridPattern } from "@/components/ui/grid-pattern";
 import { FlickeringGrid } from "@/components/ui/flickering-grid";
-import RunTextBs from "./runningtext";
 
 
-export default function Menu() {
+export default function MenuHiq() {
   const [selectedService, setSelectedService] = useState<string>("");
-  //   const router = useRouter();
+//   const router = useRouter();
 
   // const handleSubmit = () => {
   //   if (selectedService) {
@@ -38,7 +37,7 @@ export default function Menu() {
       subtitle: "Antrian untuk setting",
       description: "Pilih menu ini jika Anda belum memiliki file siap print",
       img: Setting,
-      active: true,
+      active: false,
     },
     {
       id: "konsultasi",
@@ -72,7 +71,7 @@ export default function Menu() {
       />
      <div className=" bg-gray-100 px-8 py-5 rounded-4xl border-5">
 
-      {/* <h2 className="text-3xl font-bold text-gray-800 mb-2">Hallo, Sobat Bintang </h2> */}
+      
       <p className="text-gray-500 mb-8 text-center text-">
         Silakan sentuh layar, lalu pilih layanan sesuai kebutuhan kamu.
       </p>
@@ -86,11 +85,11 @@ export default function Menu() {
               !service.active
                 ? "cursor-not-allowed opacity-50 grayscale border-gray-200 bg-gray-100"
                 : selectedService === service.id
-                ? "cursor-pointer border-red-500 bg-white"
+                ? "cursor-pointer border-orange-500 bg-white"
                 : "cursor-pointer border-gray-200 bg-white hover:border-red-300"
             }`}
           >
-             {/* Status Badge */}
+            {/* Status Badge */}
             <span
             className={`absolute top-2 right-2 z-10 text-[8px] font-semibold px-2 py-0.5 rounded-full flex items-center gap-1 ${
               service.active
@@ -128,7 +127,7 @@ export default function Menu() {
               className="relative inset-0 z-0 h-auto rounded-t-2xl [mask-image:radial-gradient(450px_circle_at_center,white,transparent)]"
               squareSize={5}
               gridGap={6}
-              color={service.active ? "#e30613" : "#9ca3af"}
+              color={service.active ? "#F67D31" : "#9ca3af"}
               maxOpacity={service.active ? 0.5 : 0.2}
               flickerChance={0.3}
               height={30}
@@ -137,7 +136,7 @@ export default function Menu() {
 
             {/* Content */}
             <div className="mb-1 p-4 py-3 z-50">
-              <h3 className={`text-lg font-bold z-50 ${service.active ? "text-red-600" : "text-gray-400"}`}>
+              <h3 className={`text-lg font-bold z-50 ${service.active ? "text-orange-600" : "text-gray-400"}`}>
                 {service.title}
               </h3>
               <p className="text-sm text-gray-600 mb-1 font-bold z-50">{service.subtitle}</p>
@@ -170,7 +169,7 @@ export default function Menu() {
         </div> */}
       
      </div>
-      <RunTextBs/>
+     
     </section>
   );
 }
