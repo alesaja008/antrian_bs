@@ -1,12 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import Logo from "./../../public/asset/img/logobs.svg";
+import Logo from "./../../public/asset/img/logohiq.svg";
 import { GridPattern } from "@/components/ui/grid-pattern";
 import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
 
-export default function Header() {
+export default function HeaderHiq() {
   const [time, setTime] = useState("");
   const [date, setDate] = useState("");
   const [scrolled, setScrolled] = useState(false);

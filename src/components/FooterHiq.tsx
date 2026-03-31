@@ -3,7 +3,7 @@
 import { GridPattern } from "@/components/ui/grid-pattern";
 import { cn } from "@/lib/utils";
 
-export default function Footer() {
+export default function FooterHiq() {
   return (
     <footer className="fixed bottom-0 left-0 right-0 z-50 bg-gray-800 text-white rounded-4xl mx-5 mb-5">
        <GridPattern
@@ -19,9 +19,9 @@ export default function Footer() {
         {/* Left: Support center */}
         <div>
           <h3 className="text-xl font-bold mb-1">Support center</h3>
-          <p className="text-sm text-gray-300">cs@hiq-print.com</p>
+          <p className="text-sm text-gray-300">cs@bintangsempurna.co.id</p>
           <p className="text-xs text-gray-400 mt-2">
-           Copyright © 2026 | High Quality. All Rights Reserved.
+            Copyright © 2026 | PT Bintang Sempurna. All Rights Reserved.
           </p>
         </div>
 

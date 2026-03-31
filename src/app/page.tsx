@@ -17,6 +17,7 @@ export default function Home() {
         <Menu/>
         <IklanBawah/>
          <div className="grid grid-cols-1 md:grid-cols-1 gap-3 px-8">
+       
          <OnlinePrint/> 
         </div>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-3 px-8 mb-5">
