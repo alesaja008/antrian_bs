@@ -19,19 +19,19 @@ export default function FooterHiq() {
         {/* Left: Support center */}
         <div>
           <h3 className="text-xl font-bold mb-1">Support center</h3>
-          <p className="text-sm text-gray-300">cs@bintangsempurna.co.id</p>
+          <p className="text-sm text-gray-300">cs@hiq-print.com</p>
           <p className="text-xs text-gray-400 mt-2">
-            Copyright © 2026 | PT Bintang Sempurna. All Rights Reserved.
+            Copyright © 2026 | High Quality. All Rights Reserved.
           </p>
         </div>
 
         {/* Right: App Store buttons */}
-        <div className="text-right">
+        {/* <div className="text-right">
           <p className="text-sm text-gray-300 mb-3">
             Jadi Member Sobat Bintang Untungnya NON-STOP
           </p>
           <div className="flex items-center gap-3 justify-end">
-            {/* App Store */}
+           
             <a
               href="#"
               className="flex items-center gap-2 bg-black border border-gray-600 rounded-lg px-4 py-2 hover:bg-gray-900 transition-colors"
@@ -45,7 +45,7 @@ export default function FooterHiq() {
               </div>
             </a>
 
-            {/* Google Play */}
+            
             <a
               href="#"
               className="flex items-center gap-2 bg-black border border-gray-600 rounded-lg px-4 py-2 hover:bg-gray-900 transition-colors"
@@ -62,7 +62,7 @@ export default function FooterHiq() {
           <p className="text-xs text-gray-400 mt-2">
             Download Sekarang dan Dapatkan keuntungannya !!
           </p>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
