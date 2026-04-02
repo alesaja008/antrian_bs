@@ -1,4 +1,4 @@
-import DPlayground from "@/../public/asset/img/hq_logo.png"
+
 import Image from "next/image"
 import Line from "@/../public/asset/img/linehq.png"
 

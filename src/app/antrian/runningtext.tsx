@@ -11,7 +11,7 @@ export default function RunTextBs() {
       <style>{`
         @keyframes marquee {
           0%   { transform: translateX(0); }
-          100% { transform: translateX(-30%); }
+          100% { transform: translateX(-20%); }
         }
         .marquee-track {
           display: inline-flex;
