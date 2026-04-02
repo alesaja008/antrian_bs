@@ -6,6 +6,7 @@ import SlideTop from "./strukturhiq/slideTop";
 import RunText from "./strukturhiq/runText";
 import WaPhone from "./strukturhiq/wa";
 import Company from "./strukturhiq/company";
+import Video from "./strukturhiq/video";
 
 
 export default function Hiq() {
@@ -20,7 +21,8 @@ export default function Hiq() {
          <div className="grid grid-cols-1 md:grid-cols-1 gap-3 px-8">
         <RunText/>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-1 gap-3 px-8 mb-5">
+        <Video/>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-5 px-8 mb-5">
         <Company/>
         <WaPhone/>
 
